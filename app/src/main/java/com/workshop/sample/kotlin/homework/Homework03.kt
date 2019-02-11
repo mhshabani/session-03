@@ -9,11 +9,16 @@ fun getCityThatMostCustomersAreFrom(shop: Shop): City? {
         }
         customerCountOfEachCity.set(customer.city, count + 1)
     }
-    customerCountOfEachCity.maxBy { it.value }
-    return null
+    return customerCountOfEachCity.maxBy { it.value }?.key
 }
 
-fun getCustomerWithMaximumNumberOfOrders(): Customer? {
-    //TODO
-    return null
+fun getCustomerWithMaximumNumberOfOrders(shop: Shop): Customer? {
+    var maxOrderCount = Int.MIN_VALUE
+    var customerWithMaxOrder: Customer? = null
+    shop.customers.forEach { customer ->
+        if (customer.orders.size > maxOrderCount)
+            customerWithMaxOrder = customer
+        maxOrderCount = customer.orders.size
+    }
+    return customerWithMaxOrder
 }
