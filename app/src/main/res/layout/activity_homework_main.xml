@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:gravity="center">
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/Red"
+            android:id="@+id/red_button"
+            android:layout_margin="15dp"
+            android:text="@string/Red"/>
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/Green"
+            android:id="@+id/green_button"
+            android:layout_toEndOf="@id/red_button"
+            android:layout_margin="15dp"
+            android:text="@string/Green"/>
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/Orange"
+            android:id="@+id/orange_button"
+            android:layout_below="@id/red_button"
+            android:layout_margin="15dp"
+            android:text="@string/Orange"/>
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/Purple"
+            android:id="@+id/purple_button"
+            android:layout_below="@id/green_button"
+            android:layout_toEndOf="@id/orange_button"
+            android:layout_margin="15dp"
+            android:text="@string/Purple"
+            android:textColor="@android:color/white"/>
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/Yellow"
+            android:id="@+id/yellow_button"
+            android:layout_below="@id/orange_button"
+            android:layout_margin="15dp"
+            android:text="@string/Yellow"/>
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/Blue"
+            android:id="@+id/blue_button"
+            android:layout_below="@id/purple_button"
+            android:layout_toEndOf="@id/yellow_button"
+            android:layout_margin="15dp"
+            android:text="@string/Blue"
+            android:textColor="@android:color/white"/>
+</RelativeLayout>

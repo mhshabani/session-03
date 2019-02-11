@@ -2,4 +2,12 @@
     <string name="app_name">My Application</string>
     <string name="hello">Hello</string>
     <string name="xyxfdsf">Go to next screen</string>
+    <string name="Red">Red</string>
+    <string name="Green">Green</string>
+    <string name="Blue">Blue</string>
+    <string name="Orange">Orange</string>
+    <string name="Purple">Purple</string>
+    <string name="Yellow">Yellow</string>
+    <string name="MainActivityButtonTextExtra" translatable="false">BUTTON_TEXT</string>
+    <string name="MainActivityButtonColorExtra" translatable="false">BUTTON_COLOR</string>
 </resources>

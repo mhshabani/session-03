@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="app_name">برنامه من</string>
     <string name="hello">سلام</string>
     <string name="xyxfdsf">برو به صفحه بعد</string>
+    <string name="Red">قرمز</string>
+    <string name="Green">سبز</string>
+    <string name="Blue">آبی</string>
+    <string name="Orange">نارنجی</string>
+    <string name="Purple">بنفش</string>
+    <string name="Yellow">زرد</string>
 </resources>
